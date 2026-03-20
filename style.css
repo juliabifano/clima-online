@@ -1,7 +1,15 @@
 body {
   background-image: url(./img/background.png);
   background-size: cover;
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.15);
+  z-index: -1;
 }
 
 header {
@@ -9,6 +17,8 @@ header {
   border-radius: 20px;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.08);
   background-color: rgb(47, 100, 107, 0.5);
+  align-items: center;
+  color: #ffffff;
 }
 
 header img {
@@ -61,4 +71,21 @@ header img {
   border-radius: 16px;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.08);
   color: #ffffff;
+}
+
+.temp {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
