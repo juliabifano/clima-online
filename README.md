@@ -22,7 +22,7 @@ Aplicação web que permite buscar a previsão do tempo de qualquer cidade em te
 ---
 
 ## 🌐 Projeto online
-👉 (coloque aqui o link do GitHub Pages depois)
+👉 -
 
 ---
 
